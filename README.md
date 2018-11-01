@@ -1,5 +1,8 @@
-1. schema.sql/seed.sql is the blog database
+<h1>Blog DataBase</h1>
+1. schema.sql/seed.sql
 
-2. schema2.sql/seed2.sql is the quiz database
+<h1>Quiz DataBase</h1>
+2. schema2.sql/seed2.sql
 
-3. schema3.sql/seed3.sql is the pingpong database
+<h1>Ping Pong DataBase</h1>
+3. schema3.sql/seed3.sql
