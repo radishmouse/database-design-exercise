@@ -1,4 +1,4 @@
-insert into pingpong
+insert into players
     (users,games)
 values
     ('jimmy', 3);
