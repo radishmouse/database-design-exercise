@@ -1,8 +1,8 @@
 CREATE TABLE quiz_app
 (
     id serial PRIMARY KEY,
-    questions text,
-    answers text,
+    question text,
+    answer text,
     category text,
     difficulty INTEGER
 );
