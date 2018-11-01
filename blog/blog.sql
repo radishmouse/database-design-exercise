@@ -4,4 +4,5 @@ CREATE TABLE blog
     user_name text,
     posts text,
     profanity boolean,
+    is_a_dick boolean
 );

@@ -4,5 +4,5 @@ CREATE TABLE quiz_app
     questions text,
     answers text,
     category text,
-
+    difficulty INTEGER
 );
