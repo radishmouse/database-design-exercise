@@ -1,17 +1,20 @@
--- An author has many books
--- hello!
+-- Blog Database
 
-create table authors (
+-- Users Table
+CREATE TABLE users (
   id serial primary key,
-  name text
+  first_name text,
+  last_name text,
+  gender integer,
+  birthday timestamp
 );
 
-create table books (
-  id serial primary key,
+
+-- Posts Table
+CREATE TABLE posts (
   title text,
-  ISBN text,
-  cover_image text,
-  page_count integer,
-  author_id integer references authors (id)  
+  genre integer,
+  publish_date timestamp,
+  likes integer,
+  user_id integer references users (id)
 );
-
