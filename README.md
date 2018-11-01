@@ -1,16 +1,5 @@
+1. schema.sql/seed.sql is the blog database
 
-# Description!
+2. schema2.sql/seed2.sql is the quiz database
 
-Write the `create table` statements and accompanying `insert` statements for the following types of apps:
-
-- A blog, with `users` and `posts`
-- A quiz app, with `questions` and `answers`
-- A ping-pong tournament app, with `users` and `games`
-
-You should create a separate database for each of these apps!
-
-## If you want your code reviewed, clone this repo, create a branch, and submit a PR :)
-
-# Follow-up exercise: pgexercises.com
-
-- [pgexercises.com](https://pgexercises.com/questions/basic/)
+3. schema3.sql/seed3.sql is the pingpong database
