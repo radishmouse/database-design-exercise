@@ -8,7 +8,7 @@ create table users (
 create table posts (
   id serial primary key,
   title text,
-  date timestamp,
+  post_date timestamp,
   user_id integer references users (id)  
 );
 
