@@ -1,10 +1,15 @@
 insert into players
-    (users,games)
+    (player1_id, player2_id, users)
 values
-    ('jimmy', 3);
+    (1, 'leonard',);
 
-insert into pingpong
-    (users, games)
+insert into players
+    (id, users)
+values
+    (2, 'patty');
+
+insert into games
+    (id, games)
 values
     ('cindy', 9);
 

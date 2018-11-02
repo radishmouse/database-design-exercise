@@ -1,20 +1,41 @@
-insert into blogo
-    (username, posts
+insert into users
+    (username
     )
 values
-    ('billy', '2018-10-31'
+    ('cindy'
 );
 
-insert into blogo
-    (username, posts
+insert into users
+    (username
     )
 values
-    ('zoe', '2018-10-30'
+    ('ted'
 );
 
-insert into blogo
-    (username, posts
+insert into users
+    (username
     )
 values
-    ('saul', '2018-10-25'
+    ('laura'
+);
+
+insert into posts
+    (post, post_time
+    )
+values
+    ('wee, life is good!', '2018-10-30'
+);
+
+insert into posts
+    (post, post_time
+    )
+values
+    ('yee haw, i got new shoes!', '2018-10-30'
+);
+
+insert into posts
+    (post, post_time
+    )
+values
+    ('oh yeah, it is monday!', '2018-10-30'
 );

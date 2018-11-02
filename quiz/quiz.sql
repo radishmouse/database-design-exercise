@@ -1,13 +1,15 @@
 create table quiz
 (
-    quiz_title text, 
-    quiz_id serial primary key
+    quiz_id serial primary key,
+    quiz_title text
+    
 );
 
 create table questions
 (
     quiz_id serial primary key,
-    question text
+    question text,
+    answer text
 );
 
 create table attempts
